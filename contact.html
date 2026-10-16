@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Creatrickx</title>
+    <meta name="description" content="Contact Creatrickx in Salem — call, WhatsApp, email or send us a project brief.">
+    <!-- Fonts identified from Social Sphere style -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo-symbol.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><a href="index.html"><img src="logo-symbol.png" alt="Creatrickx Logo" class="logo-symbol"><span class="brand-text">CREATRICK<span class="brand-x">X</span></span></a></div>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">&#9776;</button>
+        <ul id="site-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="index.html#packages">Packages</a></li>
+            <li><a href="index.html#results">Results</a></li>
+            <li><a href="contact.html" style="color:var(--orange)">Contact</a></li>
+            <li><a href="https://wa.me/917871088361?text=Hi%20Creatrickx%2C%20I%20want%20to%20book%20a%20call." target="_blank" rel="noreferrer" style="color:var(--orange)">Book a Call</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero page-hero">
+        <p class="tagline">Free consultation · No commitment</p>
+        <h1>Let's <span>Talk</span></h1>
+        <p>Share your goals, timelines and challenges. We’ll reply with a clear, practical next step — not a generic proposal.</p>
+    </section>
+
+    <section class="section" id="brief">
+        <span class="eyebrow">Project Brief</span>
+        <h2 class="section-title">Shape The <span class="accent">Next Step</span></h2>
+        <form class="form" name="contact" method="POST" action="../thank-you/" data-netlify="true" netlify-honeypot="bot-field" data-ajax>
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
+            <div class="row">
+                <div><label for="name">Name</label><input id="name" name="name" required placeholder="Your name"></div>
+                <div><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="you@company.com"></div>
+            </div>
+            <div class="row">
+                <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="+91 98765 43210"></div>
+                <div><label for="company">Company</label><input id="company" name="company" placeholder="Your company"></div>
+            </div>
+            <div>
+                <label for="service">Service of interest</label>
+                <select id="service" name="service">
+                    <option value="">Not sure yet</option>
+                    <option>Content Strategy & SEO</option>
+                    <option>Performance Marketing (Google & Meta Ads)</option>
+                    <option>CRM & Marketing Automation</option>
+                    <option>Field Marketing & Brand Activation</option>
+                    <option>Social Media Marketing & Growth</option>
+                    <option>Website Development & Conversion Design</option>
+                    <option>Revenue Optimization & CRO</option>
+                    <option>Video Production & Creative Content</option>
+                    <option>Package: The Starter</option>
+                    <option>Package: The Growth</option>
+                    <option>Package: Creatrickx Elite</option>
+                    <option>Package: Customizable</option>
+                </select>
+            </div>
+            <div><label for="message">Project Brief</label><textarea id="message" name="message" rows="5" required placeholder="Goals, timelines, challenges..."></textarea></div>
+            <button class="btn" type="submit">Send Message</button>
+            <p class="form-status" role="status"></p>
+        </form>
+    </section>
+
+    <section class="section section-alt" id="contact">
+        <h2 class="section-title">Get In <span style="color:var(--orange)">Touch</span></h2>
+        <div class="grid">
+            <div class="card contact-item">
+                <span class="contact-label">Studio</span>
+                <h3 class="contact-brand"><span class="brand-text">CREATRICK<span class="brand-x">X</span></span> Studio</h3>
+                <p><a href="https://maps.app.goo.gl/DTQAhDisjuJyATVF9?g_st=ic" target="_blank" rel="noreferrer">51b, Suramangalam Main Rd<br>3 Roads, Salem - 636009</a></p>
+            </div>
+            <div class="card contact-item">
+                <span class="contact-label">Call / WhatsApp</span>
+                <h3><a href="tel:+917871088361">+91 78710 88361</a></h3>
+                <p><a href="https://wa.me/917871088361?text=Hi%2C%20I%20want%20to%20book%20a%20call." target="_blank" rel="noreferrer">Chat on WhatsApp &rarr;</a></p>
+            </div>
+            <div class="card contact-item">
+                <span class="contact-label">Email</span>
+                <h3 class="contact-email"><a href="mailto:contact@creatrickx.org">contact@<span>Creatrickx</span>.org</a></h3>
+                <p>Response time: typically within 1 business day.</p>
+                <p style="margin-top:15px;">
+                    <a href="https://www.instagram.com/yazhl_connect" target="_blank" rel="noreferrer">Instagram</a> &nbsp;/&nbsp;
+                    <a href="https://www.facebook.com/profile.php?id=61588273242903" target="_blank" rel="noreferrer">Facebook</a>
+                </p>
+            </div>
+        </div>
+        <div class="contact-map">
+            <iframe title="Salem Office Location" src="https://www.google.com/maps?q=51b%2C%20Suramangalam%20Main%20Rd%2C%203%20Roads%2C%20Salem%20-%20636009&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo"><a href="index.html"><img src="logo-symbol.png" alt="Creatrickx Logo" class="logo-symbol"><span class="brand-text">CREATRICK<span class="brand-x">X</span></span></a></div>
+        <p>Your growth is our only metric.</p>
+        <div class="footer-links">
+            <a href="services.html">Services</a>
+            <a href="../#packages">Packages</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-of-service.html">Terms of Service</a>
+            <a href="about-us.html">About Us</a>
+            <a href="https://www.instagram.com/yazhl_connect" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=61588273242903" target="_blank" rel="noreferrer">Facebook</a>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Gokul Manimaran. Computer Science Engineer.
+        </div>
+    </footer>
+
+    <a class="wa-float" href="https://wa.me/917871088361?text=Hi%20Creatrickx%2C%20I%20want%20to%20book%20a%20call." target="_blank" rel="noreferrer">WhatsApp Us</a>
+    <script src="main.js" defer></script>
+
+</body>
+</html>

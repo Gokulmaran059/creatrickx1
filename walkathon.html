@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaadi Rasathi Walkathon | Creatrickx</title>
+    <meta name="description" content="Vaadi Rasathi — Women’s Day Walkathon celebration. Register now.">
+    <!-- Fonts identified from Social Sphere style -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo-symbol.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><a href="index.html"><img src="logo-symbol.png" alt="Creatrickx Logo" class="logo-symbol"><span class="brand-text">CREATRICK<span class="brand-x">X</span></span></a></div>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">&#9776;</button>
+        <ul id="site-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="index.html#packages">Packages</a></li>
+            <li><a href="index.html#results">Results</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://wa.me/917871088361?text=Hi%20Creatrickx%2C%20I%20want%20to%20book%20a%20call." target="_blank" rel="noreferrer" style="color:var(--orange)">Book a Call</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero page-hero">
+        <p class="tagline">Women’s Day Walkathon Celebration</p>
+        <h1>Vaadi <span>Rasathi</span></h1>
+        <p>A morning walk celebrating women — open to women only. Registration ₹199, including a T-shirt, refreshments and a DJ dance session.</p>
+        <a class="btn" href="#register">Register Now</a>
+    </section>
+
+    <section class="section">
+        <div class="grid">
+            <div class="card"><span class="contact-label">Date</span><h3>8th March</h3></div>
+            <div class="card"><span class="contact-label">Time</span><h3>6:00 AM</h3></div>
+            <div class="card contact-item"><span class="contact-label">Location</span><h3><a href="https://www.google.com/maps/search/?api=1&query=Paavai+Hospital+Salem" target="_blank" rel="noreferrer">Paavai Hospital &rarr;</a></h3></div>
+            <div class="card"><span class="contact-label">Spots</span><h3>Limited Slots Only</h3></div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="register">
+        <span class="eyebrow">Registration · ₹199</span>
+        <h2 class="section-title">Reserve Your <span class="accent">Spot</span></h2>
+        <form class="form" name="walkathon" method="POST" action="../walkathon-thank-you/" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="walkathon">
+            <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
+            <div class="row">
+                <div><label for="w-name">Full Name</label><input id="w-name" name="name" required></div>
+                <div><label for="w-phone">Phone / WhatsApp</label><input id="w-phone" name="phone" type="tel" required></div>
+            </div>
+            <div class="row">
+                <div><label for="w-age">Age</label><input id="w-age" name="age" type="number" min="1" max="120"></div>
+                <div><label for="w-size">T-Shirt Size</label>
+                    <select id="w-size" name="tshirt_size" required>
+                        <option value="">Select size</option><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option>
+                    </select>
+                </div>
+            </div>
+            <div><label for="w-email">Email (optional)</label><input id="w-email" name="email" type="email"></div>
+            <button class="btn" type="submit">Register Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-logo"><a href="index.html"><img src="logo-symbol.png" alt="Creatrickx Logo" class="logo-symbol"><span class="brand-text">CREATRICK<span class="brand-x">X</span></span></a></div>
+        <p>Your growth is our only metric.</p>
+        <div class="footer-links">
+            <a href="services.html">Services</a>
+            <a href="../#packages">Packages</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-of-service.html">Terms of Service</a>
+            <a href="about-us.html">About Us</a>
+            <a href="https://www.instagram.com/yazhl_connect" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=61588273242903" target="_blank" rel="noreferrer">Facebook</a>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Gokul Manimaran. Computer Science Engineer.
+        </div>
+    </footer>
+
+    <a class="wa-float" href="https://wa.me/917871088361?text=Hi%20Creatrickx%2C%20I%20want%20to%20book%20a%20call." target="_blank" rel="noreferrer">WhatsApp Us</a>
+    <script src="main.js" defer></script>
+
+</body>
+</html>
